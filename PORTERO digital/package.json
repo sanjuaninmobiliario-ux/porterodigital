@@ -1,0 +1,15 @@
+{
+  "name": "portero-digital",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portero digital por QR + WhatsApp (prototipo Moviltec)",
+  "scripts": {
+    "test": "node tests/api.test.mjs",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@netlify/blobs": ">=8.0.0"
+  },
+  "engines": { "node": ">=18" }
+}
